@@ -9,6 +9,16 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "greet": "scripty",
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
   "volta": {
     "node": "12.19.0",
     "yarn": "1.22.10"
